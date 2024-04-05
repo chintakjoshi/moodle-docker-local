@@ -36,4 +36,4 @@ moodle
 
 The Default username and password for the Moodle Web App will - ```admin and password``` respectively.
 
-The repository was cloned from [https://github.com/ubc/moodle-docker/tree/master](https://github.com/ubc/moodle-docker/tree/master).
+The repository was cloned and modified from [https://github.com/ubc/moodle-docker/tree/master](https://github.com/ubc/moodle-docker/tree/master). Review this repository for detailed documentation and implementation.
