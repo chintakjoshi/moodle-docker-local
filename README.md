@@ -5,8 +5,10 @@
 docker network create moodle-network
 ```
 
-2) Setup Database (MariaDB) for Moodle within netwerk
+2) Setup Database (MariaDB) for Moodle within network
+
 *PS - The following commands are only for linux users*
+
 ```
 docker run -d --name moodle-db \
 --network moodle-network \
