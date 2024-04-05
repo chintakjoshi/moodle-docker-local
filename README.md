@@ -34,6 +34,6 @@ docker run -d --name moodle \
 moodle
 ```
 
-The Default username and password for the Moodle Web App will - ```admin and password``` respectively.
+The Moodle instance will run on [http://localhost:8080/](http://localhost:8080/) and the Default username and password for the Moodle Web App will - ```admin and password``` respectively.
 
 The repository was cloned and modified from [https://github.com/ubc/moodle-docker/tree/master](https://github.com/ubc/moodle-docker/tree/master). Review this repository for detailed documentation and implementation.
