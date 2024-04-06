@@ -17,6 +17,8 @@ docker run -d --name moodle-db \
 mariadb
 ```
 
+Now, if you are using windows - Then, Open ```docker-entrypoint.sh``` script in VS Code. In the bottom-right corner, you'll see an indicator saying CRLF or LF. Click on it, then select LF from the options that pop up. Save the file. Otherwise, you can skip this step if you are linux user.
+
 3) Install Moodle Image to docker - 
 ```
 docker build --no-cache -t moodle .

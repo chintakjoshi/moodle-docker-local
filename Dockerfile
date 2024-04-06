@@ -1,5 +1,4 @@
 FROM php:7.4-apache
-MAINTAINER Tyler Cinkant <tyler.cinkant@ubc.ca>
 
 ENV MOODLE_VERSION=3.9.25
 ENV UPLOAD_MAX_FILESIZE=20M
