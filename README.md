@@ -1,11 +1,13 @@
-# Steps to install moodle 
+# Moodle v3.9.25 Local Setup
+
+## Steps to install Moodle 
 
 1) Create a docker network for MoodleDB and Moodle
 ```
 docker network create moodle-network
 ```
 
-2) Setup Database (MariaDB) for Moodle within network (*PS - The following commands are only for linux users*)
+2) Setup Database (MariaDB) for Moodle within the network (*PS - The following commands are only for Linux users*)
 
 ```
 docker run -d --name moodle-db \
@@ -17,7 +19,7 @@ docker run -d --name moodle-db \
 mariadb
 ```
 
-Now, if you are using windows - Then, Open ```docker-entrypoint.sh``` script in VS Code. In the bottom-right corner, you'll see an indicator saying CRLF or LF. Click on it, then select LF from the options that pop up. Save the file. Otherwise, you can skip this step if you are linux user.
+Now, if you are using Windows - Then, Open ```docker-entrypoint.sh``` script in VS Code. In the bottom-right corner, you'll see an indicator saying CRLF or LF. Click on it, then select LF from the options that pop up. Save the file. Otherwise, you can skip this step if you are Linux user.
 
 3) Install Moodle Image to docker - 
 ```
